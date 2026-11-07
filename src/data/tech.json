@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "title": "Frontend",
+      "skills": [
+        { "name": "Power Apps", "level": 3, "icon": "PowerApps_scalable" },
+        { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
+        { "name": "HTML", "level": 3, "icon": "skill-icons:html" },
+        { "name": "CSS", "level": 3, "icon": "skill-icons:css" },
+        { "name": "Tailwind CSS", "level": 2, "icon": "skill-icons:tailwindcss-dark" }
+      ]
+    },
+    {
+      "title": "Backend & Tools",
+      "skills": [
+        { "name": "Power Automate", "level": 3, "icon": "PowerAutomate_scalable"},
+        { "name": "Docker", "level": 2, "icon": "skill-icons:docker" },
+        { "name": "Git", "level": 3, "icon": "skill-icons:git" }
+      ]
+    },
+    {
+      "title": "Database",
+      "skills": [
+        { "name": "SQL", "level": 2, "icon": "skill-icons:mysql-dark" },
+        { "name": "Dataverse", "level": 3, "icon": "Dataverse_scalable" }
+      ]
+    },
+    {
+      "title": "Certifications",
+      "skills": [
+        { "name": "PL-900", "icon": "MS_PL900" },
+        { "name": "PL-100", "icon": "MS_PL100_PL400" },
+        { "name": "PL-400", "icon": "MS_PL100_PL400" },
+        { "name": "PL-600", "icon": "MS_PL600" }
+      ]
+    }
+  ]
+}

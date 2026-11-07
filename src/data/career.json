@@ -1,0 +1,35 @@
+[
+  {
+    "company": "Team Eno",
+    "role": "Audio Engineer",
+    "period": "Jan 2026 - Present",
+    "type": "",
+    "description": "Setting up the music and sound for the studio's projects, together with occasional fixes in the games' engine",
+    "skills": ["Unreal Engine 5.7", "Audiokinetic Wwise", "Logic Pro", "Reactive Audio"]
+  },
+  {
+    "company": "Cegeka Business Solutions Italia Srl",
+    "role": "Software Developer",
+    "period": "May 2022 - Oct 2025",
+    "type": "Full time job",
+    "description": "Developing apps and flows in Microsoft Power Platform, often linked to other Microsoft services like Dynamics 365 or Business Central. Focused on making reusable app designs, smooth user experiences and flawless integrations.",
+    "skills": ["Power Apps", "Power Automate", "REST APIs", "JSON", "Swagger", "Docker", "SQL"]
+  },
+  {
+    "company": "Demo Solutions Ltd",
+    "url": "https://example.com",
+    "role": "Full-stack Developer",
+    "period": "Sep 2023 - Sep 2025",
+    "type": "Full time job",
+    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
+    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "company": "Demo University of Tech",
+    "role": "BSc in Computer Science",
+    "period": "Jun 2020 - Jun 2024",
+    "type": "Student",
+    "description": "Graduated with honors. Focused on data structures, algorithm optimization, software architecture, and database systems.",
+    "skills": ["Data Structures", "Algorithms", "OOP", "DBMS"]
+  }
+]
