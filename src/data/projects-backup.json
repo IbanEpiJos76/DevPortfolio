@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Music website",
+    "description": "Personal website about music and sound design, together with links to social media pages, SoundCloud and past projects",
+    "images": ["astro-01.webp", "astro-02.jpeg"],
+    "tech": ["Astro", "Tailwind"],
+    "platforms": ["web"],
+    "link": "https://github.com/nbakh16/career-portfolio-template",
+    "category": "Published Website"
+  },
+  {
+    "id": 2,
+    "title": "Demo App",
+    "description": "A high-performance mobile application built with Power Apps to showcase technical expertise.",
+    "images": ["astro-02.jpeg", "#"],
+    "tech": ["Power Apps", "Power Automate"],
+    "platforms": ["web", "apple-ios", "android"],
+    "link": "",
+    "category": "Hobby"
+  }
+]

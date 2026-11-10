@@ -16,20 +16,19 @@
     "skills": ["Power Apps", "Power Automate", "REST APIs", "JSON", "Swagger", "Docker", "SQL"]
   },
   {
-    "company": "Demo Solutions Ltd",
-    "url": "https://example.com",
-    "role": "Full-stack Developer",
-    "period": "Sep 2023 - Sep 2025",
-    "type": "Full time job",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
+    "company": "Archimede SpA",
+    "role": "SEO Specialist course",
+    "period": "May 2021 - Jun 2021",
+    "type": "Student",
+    "description": "In-depth education in Search Engine Optimization, use of ads on social networks, choice of keywords and web formatting to enhance the presence of a website in search engine indexing.",
+    "skills": ["SEO", "Google Ads"]
   },
   {
-    "company": "Demo University of Tech",
-    "role": "BSc in Computer Science",
-    "period": "Jun 2020 - Jun 2024",
+    "company": "ITE \"Agostino Bassi\"",
+    "role": "High School Diploma",
+    "period": "Sep 2011 - Jul 2017",
     "type": "Student",
-    "description": "Graduated with honors. Focused on data structures, algorithm optimization, software architecture, and database systems.",
-    "skills": ["Data Structures", "Algorithms", "OOP", "DBMS"]
+    "description": "Diploma in IT and Accounting. Learned the fundamentals of code writing, HTML, PHP and databases",
+    "skills": ["Data Structures", "HTML", "PHP", "OOP", "DBMS"]
   }
 ]

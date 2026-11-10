@@ -51,7 +51,7 @@ const platformIconMap: Record<string, string> = {
             <Image
               src={imgMetadata}
               alt={`${project.title}`}
-              class={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 group-hover:scale-110 ${index === 0 ? 'opacity-100 z-0' : 'opacity-0 z-[-1]'}`}
+              class={`center absolute inset-0 w-full h-full object-cover transition-all duration-1000 group-hover:scale-110 ${index === 0 ? 'opacity-100 z-0' : 'opacity-0 z-[-1]'}`}
             />
           ))
         ) : (
@@ -111,6 +111,10 @@ const platformIconMap: Record<string, string> = {
     </div>
 
     <!-- View Project Button -->
+    <!-- <button data-target={`project-${project.id}`} class="project-btn mt-1 flex items-center justify-center gap-2 w-full py-2 rounded-lg border border-accent/20 text-accent/70 hover:text-accent hover:border-accent/60 hover:bg-accent/5 transition-all duration-300 text-xs font-body font-semibold tracking-wide">
+      View Project
+      <Icon name="mdi:arrow-right" class="w-3.5 h-3.5" />
+    </button> -->
     <a
       href={project.link}
       target="_blank"
@@ -122,7 +126,22 @@ const platformIconMap: Record<string, string> = {
   </div>
 </div>
 
+<!-- Modal dialog window -->
+<!-- <div id={`project-${project.id}`} class="modal">
+  <div class="modal-content rounded-lg">
+    <button type="button" class="close" aria-label="Close dialog">&times;</button>
+    <iframe class="h-150 w-full rounded-lg" title={project.title} src={project.link}></iframe>
+  </div>
+</div> -->
+
 <script>
+  // Variabili per modal window
+  /* var modal = document.getElementById('project-modal-dialog');
+  var btn = document.getElementsByClassName('project-btn');
+  var span = document.getElementsByClassName('close')[0];
+  var navbar = document.getElementById('main-nav');
+  var themetoggle = document.getElementById('theme-toggle-wrapper'); */
+
   const activeSliderIntervals: ReturnType<typeof setInterval>[] = [];
 
   function initSliders() {
@@ -168,6 +187,54 @@ const platformIconMap: Record<string, string> = {
 
   initSliders();
   document.addEventListener('astro:after-swap', () => { initSliders(); });
+
+  // Apertura popup modale
+  /* document.querySelectorAll(".project-btn").forEach((button) => {
+    button.addEventListener("click", () => {
+      const id = button.getAttribute('data-target');
+      const dialog = id ? document.getElementById(id) : null;
+
+      if (dialog) {
+        dialog.style.display = 'block';
+        navbar.style.display = 'none';
+        themetoggle.style.display = 'none';
+      }
+    });
+  });
+
+  document.querySelectorAll('.modal').forEach((modal) => {
+    modal.querySelector('.close')?.addEventListener('click', () => {
+      modal.style.display = 'none';
+      navbar.style.display = 'block';
+      themetoggle.style.display = 'block';
+    });
+
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        navbar.style.display = 'block';
+        themetoggle.style.display = 'block';
+      }
+    })
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      document.querySelectorAll('.modal').forEach((modal) => {
+        modal.style.display = 'none';
+      });
+      navbar.style.display = 'block';
+      themetoggle.style.display = 'block';
+    }
+  })
+
+  window.onclick = (event) => {
+    if(event.target == modal) {
+      modal.style.display = "none";
+      navbar.style.display = 'block';
+      themetoggle.style.display = 'block';
+    }
+  } */
 </script>
 
 <style is:global>
@@ -186,6 +253,41 @@ const platformIconMap: Record<string, string> = {
     opacity: 1 !important;
     visibility: visible !important;
     transform: translateY(0) !important;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #7cb0f3;
+    background-color: #7cb0f3ac;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 65%;
+    height: 80%;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
   }
 
   /* Slider dot pill transition */

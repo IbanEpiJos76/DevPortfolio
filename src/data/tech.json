@@ -13,6 +13,7 @@
     {
       "title": "Backend & Tools",
       "skills": [
+        { "name": "Power Platform", "level": 2, "icon": "PowerPlatform_scalable"},
         { "name": "Power Automate", "level": 3, "icon": "PowerAutomate_scalable"},
         { "name": "Docker", "level": 2, "icon": "skill-icons:docker" },
         { "name": "Git", "level": 3, "icon": "skill-icons:git" }
