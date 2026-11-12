@@ -37,6 +37,7 @@ dist/
 !node_modules/fnv1a-64/dist
 !node_modules/std-env/dist
 !node_modules/unstorage/dist
+!node_modules/destr/dist
 
 # generated types
 .astro/
