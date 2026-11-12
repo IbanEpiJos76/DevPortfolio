@@ -1,6 +1,6 @@
 # build output
 dist/
-!node_modules/astro/dist
+!node_modules/*/dist
 !node_modules/astro-icon/dist
 !node_modules/piccolore/dist
 !node_modules/@astrojs/*/dist
