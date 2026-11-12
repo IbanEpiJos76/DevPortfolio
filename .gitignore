@@ -30,6 +30,7 @@ dist/
 !node_modules/p-queue/dist
 !node_modules/@oslojs/encoding/dist
 !node_modules/get-tsconfig/dist
+!node_modules/resolve-pkg-maps/dist
 
 # generated types
 .astro/
