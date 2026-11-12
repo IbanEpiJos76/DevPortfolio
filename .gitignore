@@ -2,6 +2,7 @@
 dist/
 !node_modules/astro/dist
 !node_modules/piccolore/dist
+!node_modules/@astrojs/internal-helpers/dist
 
 # generated types
 .astro/
