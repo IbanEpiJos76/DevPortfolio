@@ -19,6 +19,7 @@ dist/
 !node_modules/oniguruma-parser/dist
 !node_modules/common-ancestor-path/dist
 !node_modules/dset/dist
+!node_modules/package-manager-detector/dist
 
 # generated types
 .astro/
