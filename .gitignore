@@ -45,6 +45,7 @@ dist/
 !node_modules/fontace/dist
 !node_modules/@tailwindcss/node/dist
 !node_modules/@tailwindcss/vite/dist
+!node_modules/jiti/dist
 
 # generated types
 .astro/
