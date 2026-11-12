@@ -21,6 +21,7 @@ dist/
 !node_modules/dset/dist
 !node_modules/package-manager-detector/dist
 !node_modules/vite/dist
+!node_modules/rolldown/dist
 
 # generated types
 .astro/
