@@ -40,6 +40,7 @@ dist/
 !node_modules/destr/dist
 !node_modules/ultrahtml/dist
 !node_modules/clsx/dist
+!node_modules/cookie/dist
 
 # generated types
 .astro/
