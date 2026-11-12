@@ -13,6 +13,7 @@ dist/
 !node_modules/@shikijs/core/dist
 !node_modules/@shikijs/types/dist
 !node_modules/@shikijs/primitive/dist
+!node_modules/@shikijs/vscode-textmate/dist
 !node_modules/common-ancestor-path/dist
 
 
