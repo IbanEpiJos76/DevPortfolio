@@ -4,6 +4,7 @@ dist/
 !node_modules/piccolore/dist
 !node_modules/@astrojs/internal-helpers/dist
 !node_modules/@astrojs/vite-plugin-astro/dist
+!node_modules/@astrojs/runtime/dist
 !node_modules/common-ancestor-path/dist
 
 # generated types
