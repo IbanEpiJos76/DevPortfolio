@@ -39,6 +39,7 @@ dist/
 !node_modules/unstorage/dist
 !node_modules/destr/dist
 !node_modules/ultrahtml/dist
+!node_modules/clsx/dist
 
 # generated types
 .astro/
