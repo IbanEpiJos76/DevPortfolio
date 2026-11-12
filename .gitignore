@@ -8,7 +8,9 @@ dist/
 !node_modules/@astrojs/sitemap/dist
 !node_modules/@astrojs/telemetry/dist
 !node_modules/@astrojs/yaml2ts/dist
+!node_modules/shiki/dist
 !node_modules/common-ancestor-path/dist
+
 
 # generated types
 .astro/
