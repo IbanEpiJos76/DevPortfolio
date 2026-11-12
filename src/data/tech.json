@@ -29,10 +29,10 @@
     {
       "title": "Certifications",
       "skills": [
-        { "name": "PL-900", "icon": "MS_PL900" },
-        { "name": "PL-100", "icon": "MS_PL100_PL400" },
-        { "name": "PL-400", "icon": "MS_PL100_PL400" },
-        { "name": "PL-600", "icon": "MS_PL600" }
+        { "name": "PL-900", "level": 0, "icon": "MS_PL900" },
+        { "name": "PL-100", "level": 0, "icon": "MS_PL100_PL400" },
+        { "name": "PL-400", "level": 0, "icon": "MS_PL100_PL400" },
+        { "name": "PL-600", "level": 0, "icon": "MS_PL600" }
       ]
     }
   ]
