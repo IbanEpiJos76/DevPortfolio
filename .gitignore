@@ -38,6 +38,7 @@ dist/
 !node_modules/std-env/dist
 !node_modules/unstorage/dist
 !node_modules/destr/dist
+!node_modules/ultrahtml/dist
 
 # generated types
 .astro/
