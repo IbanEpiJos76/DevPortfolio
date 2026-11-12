@@ -24,6 +24,8 @@ dist/
 !node_modules/rolldown/dist
 !node_modules/@rolldown/pluginutils/dist
 !node_modules/tinyglobby/dist
+!node_modules/fdir/dist
+
 
 # generated types
 .astro/
