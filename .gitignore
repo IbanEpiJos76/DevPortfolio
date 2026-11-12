@@ -23,6 +23,7 @@ dist/
 !node_modules/process-ancestry/dist
 !node_modules/smol-toml/dist
 !node_modules/yaml/dist
+!node_modules/satteri/dist
 
 # generated types
 .astro/
