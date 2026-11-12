@@ -25,6 +25,7 @@ dist/
 !node_modules/yaml/dist
 !node_modules/satteri/dist
 !node_modules/magic-string/dist
+!node_modules/@jridgewell/remapping/dist
 !node_modules/@jridgewell/sourcemap-codec/dist
 !node_modules/es-module-lexer/dist
 !node_modules/p-queue/dist
