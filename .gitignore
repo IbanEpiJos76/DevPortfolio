@@ -41,6 +41,7 @@ dist/
 !node_modules/ultrahtml/dist
 !node_modules/clsx/dist
 !node_modules/cookie/dist
+!node_modules/neotraverse/dist
 
 # generated types
 .astro/
