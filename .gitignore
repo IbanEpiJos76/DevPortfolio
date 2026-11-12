@@ -1,6 +1,7 @@
 # build output
 dist/
 !node_modules/astro/dist
+!node_modules/piccolore/dist
 
 # generated types
 .astro/
