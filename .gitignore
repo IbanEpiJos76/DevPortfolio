@@ -34,6 +34,7 @@ dist/
 !node_modules/@capsizecss/unpack/dist
 !node_modules/fontkitten/dist
 !node_modules/unifont/dist
+!node_modules/fnv1a-64/dist
 
 # generated types
 .astro/
