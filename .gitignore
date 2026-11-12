@@ -20,6 +20,7 @@ dist/
 !node_modules/common-ancestor-path/dist
 !node_modules/dset/dist
 !node_modules/package-manager-detector/dist
+!node_modules/vite/dist
 
 # generated types
 .astro/
