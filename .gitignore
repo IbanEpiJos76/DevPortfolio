@@ -32,6 +32,7 @@ dist/
 !node_modules/get-tsconfig/dist
 !node_modules/resolve-pkg-maps/dist
 !node_modules/@capsizecss/unpack/dist
+!node_modules/fontkitten/dist
 
 # generated types
 .astro/
